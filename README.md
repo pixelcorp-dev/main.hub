@@ -6,7 +6,7 @@
 
 Welcome to the **PixelCorp Central Root**. This master landing repository acts as the primary web-gateway linking our specialized desktop performance architectures and elite emulator touch-tuning systems into a single clean deployment interface.
 
-🌐 **Ecosystem Portal:** [pixelcorp-dev.github.io ↗](https://pixelcorp-dev.github.io/)
+🌐 **Live Ecosystem Portal:** [pixelcorp-dev.github.io/main.hub ↗](https://pixelcorp-dev.github.io/main.hub/)
 
 ---
 
@@ -39,21 +39,21 @@ This central hub merges the design languages of both standalone networks:
 
 ## 📂 Repository Tree Structure
 
-Organize your deployment files using this directory structure to keep the site paths working smoothly:
+To keep your relative routing links clean on GitHub Pages, set up your `main.hub` repository folders like this:
 
 ```text
-pixelcorp-root/
+main.hub/ (Root Directory)
 │
 ├── index.html          # Main Central Hub Landing Matrix
 ├── style.css           # Global Combined Theme and Card Rules
 ├── script.js           # Dual-Color Particle Engine & Target Cursor Script
 │
-├── optimizer/          # System Optimiser & Debloater Portal Site
+├── optimizer/          # System Optimiser & Debloater Portal Folder
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
 │
-└── sensi/              # Regedit Sensitivity Distribution Portal Site
+└── sensi/              # Regedit Sensitivity Distribution Folder
     ├── index.html
     ├── style.css
     └── script.js
