@@ -3,99 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PIXELCORP DEV // Master Central Hub</title>
+    <title>PIXELCORP MASTER HUB // Command Deck</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Unified Cursor System -->
-    <div class="custom-cursor-dot"></div>
-    <div class="custom-cursor-outline"></div>
+    <!-- Tactical Target Matrix Canvas Background -->
+    <canvas id="matrix-canvas"></canvas>
 
-    <!-- Background Layer Matrix -->
-    <canvas id="particle-canvas"></canvas>
-    <div class="aura-vignette"></div>
-
-    <header>
-        <div class="rank-badge"><i class="fa-solid fa-layer-group"></i> PIXELCORP ECOSYSTEM ROOT</div>
-        <h1 class="logo">
-            PIXELCORP <span class="gradient-text">CENTRAL</span>
-        </h1>
-        <p class="subtitle">Select your deployment gateway. Access elite system debloat optimization suites or pull high-accuracy emulator registry configurations.</p>
+    <div class="dashboard-wrapper">
         
-        <!-- Main Discord Shortcut -->
-        <a href="https://discord.gg/EygGF9FDXA" target="_blank" class="discord-link-wrapper">
-            <button class="discord-btn">
-                <i class="fa-brands fa-discord"></i>
-                <span>JOIN MY DISCORD</span>
-            </button>
-        </a>
-    </header>
+        <!-- TOP NAVIGATION & BRANDING BAR -->
+        <nav class="top-bar">
+            <div class="brand-zone">
+                <span class="system-status-dot"></span>
+                <span class="brand-title">PIXELCORP // CORE NODE</span>
+            </div>
+            <!-- Top Connected Action Link -->
+            <a href="https://discord.gg/EygGF9FDXA" target="_blank" class="top-nav-discord">
+                <i class="fa-brands fa-discord"></i> DISCORD PLATFORM
+            </a>
+        </nav>
 
-    <!-- The Dual Gateway Navigation Split -->
-    <main class="hub-container">
-        
-        <!-- CARD 1: SYSTEM OPTIMISER (Link to your first site) -->
-        <div class="hub-card">
-            <div class="card-inner">
-                <div class="glow-point"></div>
-                <div class="icon-wrapper blue-cyan-theme">
-                    <i class="fa-solid fa-gauge-high"></i>
+        <!-- CENTRAL COMMAND HEADLINE -->
+        <header class="hub-header">
+            <h1>SELECT DEPLOYMENT PAYLOAD</h1>
+            <p>Direct entry points to active firmware modifications, operating system optimization modules, and emulator sensitivity maps.</p>
+        </header>
+
+        <!-- SPLIT-DECK INTERACTIVE TERMINAL LINKS -->
+        <section class="split-deck">
+            
+            <!-- GATEWAY 1: PC-OPT -->
+            <a href="https://pixelcorp-dev.github.io/pc-opt/" class="deck-sector optimizer-sector">
+                <div class="sector-bg-glow"></div>
+                <div class="sector-content">
+                    <div class="sector-meta">SYS_SUITE_V2.0</div>
+                    <div class="sector-main">
+                        <div class="sector-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
+                        <h2>SYSTEM PERFORMANCE</h2>
+                        <p>Inject frame rate stabilizers, clear background system blocks, and decrease raw thread execution latency maps.</p>
+                    </div>
+                    <div class="sector-action">
+                        <span>LAUNCH OPTIMISER ENGINE</span>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
                 </div>
-                <h2>SYSTEM PERFORMANCE</h2>
-                <div class="divider blue-divider"></div>
-                <p>Unlock absolute desktop frame rates. Features debloater scripts, latency optimization modules, and memory engine cleanups for pure Windows performance.</p>
-                
-                <!-- Replace href with your actual link if hosted separately -->
-                <a href="./optimizer/index.html" class="hub-link">
-                    <button class="hub-btn aura-blue-btn">
-                        <span class="btn-text">ENTER OPTIMISER DECK</span>
-                    </button>
-                </a>
-            </div>
-        </div>
+            </a>
 
-        <!-- CARD 2: REGEDIT SENSI (Link to your new site) -->
-        <div class="hub-card">
-            <div class="card-inner">
-                <div class="glow-point"></div>
-                <div class="icon-wrapper bright-green-theme">
-                    <i class="fa-solid fa-crosshairs"></i>
+            <!-- GATEWAY 2: PIXEL.SENSI-PACK -->
+            <a href="https://pixelcorp-dev.github.io/pixel.sensi-pack/" class="deck-sector sensi-sector">
+                <div class="sector-bg-glow"></div>
+                <div class="sector-content">
+                    <div class="sector-meta">SENSI_REGMAP_FF</div>
+                    <div class="sector-main">
+                        <div class="sector-icon"><i class="fa-solid fa-crosshairs"></i></div>
+                        <h2>REGEDIT SENSI PACK</h2>
+                        <p>Windows pointer mapping overrides engineered for high-velocity tracking adjustments on BlueStacks 5, MSI 5, ev4x, and msi4.20.</p>
+                    </div>
+                    <div class="sector-action">
+                        <span>PULL REGISTRY MULTIPLIER</span>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
                 </div>
-                <h2>REGEDIT SENSI HUB</h2>
-                <div class="divider green-divider"></div>
-                <p>Engineered sensitivity maps. Custom pointer overrides and registry modifications tuned specifically for BlueStacks 5, MSI 5, ev4x, and msi4.20.</p>
-                
-                <!-- Replace href with your actual link if hosted separately -->
-                <a href="./sensi/index.html" class="hub-link">
-                    <button class="hub-btn aura-green-btn">
-                        <span class="btn-text">ENTER SENSI DECK</span>
-                    </button>
-                </a>
-            </div>
-        </div>
+            </a>
 
-    </main>
+        </section>
 
-    <!-- Custom Requisitions Marquee/Contact Deck -->
-    <section class="console-frame">
-        <div class="console-nav">
-            <div class="nav-controls">
-                <span></span><span></span><span></span>
+        <!-- LOW-PROFILE INFORMATION INTRA-NET BAR -->
+        <footer class="system-footer">
+            <div class="footer-notice">
+                <i class="fa-solid fa-circle-info"></i> CUSTOM REQUISITIONS MATRIX OPEN: FOR HAND-TUNED PROFILES OR PRIVATE EMULATOR OVERHAULS, CONTACT INTEL NODES.
             </div>
-            <div class="nav-status">PIXELCORP NETWORK CORE ACTIVATED</div>
-        </div>
-        <div class="console-viewport">
-            <div class="contact-pitch">
-                Looking for exclusive, private modifications? For custom <span class="highlight">BlueStacks 5 / MSI 5 / ev4x / msi4.20</span> configurations and targeted tweaks, reach out below:
+            <div class="footer-channels">
+                <span><i class="fa-solid fa-envelope"></i> pixelcorp-dev@outlook.com</span>
             </div>
-            <div class="contact-channels">
-                <div class="channel-tag"><i class="fa-brands fa-discord"></i> Discord Community</div>
-                <div class="channel-tag"><i class="fa-solid fa-envelope"></i> pixelcorp-dev@outlook.com</div>
-            </div>
-        </div>
-    </section>
+        </footer>
+
+    </div>
 
     <script src="script.js"></script>
 </body>
